@@ -1,0 +1,59 @@
+
+
+# add user
+https://members-tracker.herokuapp.com/api/usertracker/user
+
+{
+	"user_first_name":"aditya",
+	"user_last_name": "kumar",
+	"user_email": "adityaknegi9@gmail.com",
+	"time_zone": "asia"
+}
+
+
+
+## genrateed string
+{
+    "id": 1,
+    "user_first_name": "aditya",
+    "user_last_name": "kumar",
+    "user_email": "adityaknegi@gmail.com",
+    "user_hash": "X9A32siASMfmpdEAiECtqMTvr54AvSzKIWmTyV11gQBqgzyZbO",
+    "time_zone": "asia",
+    "user_created_on": "2020-07-07T17:25:32.424240Z"
+}
+
+
+{
+	"user_first_name":"manoj",
+	"user_last_name": "kumar",
+	"user_email": "manoj009@gmail.com",
+	"time_zone": "japan"
+}
+
+
+{
+    "id": 2,
+    "user_first_name": "manoj",
+    "user_last_name": "kumar",
+    "user_email": "manoj009@gmail.com",
+    "user_hash": "0vyHVAUbXYR3tGaQUHhYR60XjoIFTIXyLcQxazqsuBuezvx70e",
+    "time_zone": "japan",
+    "user_created_on": "2020-07-07T17:27:01.573209Z"
+}
+
+
+
+add user activity_periods
+
+https://members-tracker.herokuapp.com/api/usertracker/user_activity/manoj009@gmail.com/0vyHVAUbXYR3tGaQUHhYR60XjoIFTIXyLcQxazqsuBuezvx70e
+
+{
+"start_time" : "Feb 1 2020  1:33PM",
+"end_time":"Feb 1 2020 1:54PM"
+}
+
+
+## GET MEMBERS
+https://members-tracker.herokuapp.com/api/usertracker/get_members
+
